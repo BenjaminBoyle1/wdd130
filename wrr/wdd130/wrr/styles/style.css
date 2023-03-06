@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Roboto:wght@800&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -191,6 +191,81 @@ nav{
 .home-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+/* Rivers and Destinations Page CSS */
+
+.River-title{
+    color: rgb(0, 0, 0);
+    font-family: 'Quicksand','Roboto', sans-serif;
+    margin: 10px;
+    text-align: center;
+    grid-column: 1/10;
+    font-size: 2em;
+}
+.rivers-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#river-img{
+    width: 100%;
+}
+.rivers-grid h2{
+    font-size: 1em;
+    font-family: 'Quicksand','Roboto', sans-serif;
+}
+.river-card{
+    grid-column: 6/10;
+    grid-row: 3/6;
+    margin-left: 100px;
+    border: 10px solid rgba(20,30,13, .7);
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.provo-img, .canyon-img{
+    width: 100%;
+}
+.canyon-card, .river-card{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 10px solid rgba(20,30,13, .7);
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #bec6a7;
+}
+.canyon-card{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+#River-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+#River-msg{
+    grid-column: 1/10;
+    grid-row: 3/4;
+    margin-bottom: 50px;
+}
+.provo-msg{
+    grid-column: 1/6;
+    grid-row: 3/5;
+    text-align: center;
+    margin-left: 100px;
+    font-family: 'Roboto', sans-serif;
+    color:rgb(11, 10, 10);
+    font-size: 1.1em;
+    font-style: inherit;
+}
+.canyon-msg{
+    grid-column: 6/10;
+    grid-row: 1/5;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color:rgb(11, 10, 10);
+    font-size: 1.1em;
+    font-style: inherit;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
