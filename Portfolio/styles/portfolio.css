@@ -5,14 +5,14 @@
     margin: 0 auto;
 }
 header {
-    background-color:#3C6E71;
+    background-color:#284B63;
     color: white;
     display: grid;
     grid-template-columns: 100px auto;
     grid-template-rows: 100px;
 }
 footer{
-    background-color:#3C6E71;
+    background-color:#284B63;
     color:#353535;
     padding: 30px 50px;
     display: flex;
@@ -34,7 +34,7 @@ body {
 }
 nav a {
     text-align: center;
-    color: #353535;
+    color: #D9D9D9;
     padding: 35px;
     font-size: larger;
 }
@@ -81,8 +81,8 @@ nav a {
     color: #D9D9D9;
     font-size: 27px;
 }
-footer a{
-    color: #353535;
+footer a, footer p{
+    color: #D9D9D9;
     text-decoration: none;
 }
 .info{
@@ -115,4 +115,5 @@ nav a:hover{
     font-family: 'Roboto';
     color: #3C6E71;
     font-size: 50px;
+    font-weight: bolder;
 }
