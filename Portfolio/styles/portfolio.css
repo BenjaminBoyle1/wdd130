@@ -112,6 +112,7 @@ nav a:hover{
 }
 .title h2{
     font-family: 'Quicksand';
-    color: #D9D9D9;
+    color: #284B63;
     font-size: 50px;
+    text-decoration: underline;
 }
